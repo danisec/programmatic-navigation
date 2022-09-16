@@ -6,7 +6,8 @@ function Post() {
   let params = useParams();
   let items = useAPI();
 
-  let item = items.data && items.data[params.itemId];
+  let item =
+    items.data && items.data.find((item) => item.id === Number(params.itemId));
 
   return (
     <>
