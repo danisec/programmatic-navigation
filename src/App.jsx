@@ -1,7 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 
-import PostPages from "./pages/posts";
+import PostPages from "./pages/posts/Index";
 
 import PostDetil from "./pages/posts/post-detail/PostDetil";
 import Post from "./pages/posts/post-detail/Post";
